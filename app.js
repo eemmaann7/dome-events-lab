@@ -63,7 +63,7 @@ function calculate (first, operator, secnd){
     if (operator === '+'){
         return first + secnd
     } else if (operator === '-'){
-        return  ((first) - (secnd))
+        return  secnd - first
     } else if (operator === '*'){
         return first * secnd
     } else if (operator === '/'){
